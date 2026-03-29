@@ -1,0 +1,25 @@
+[project]
+name = "moon-agent"
+version = "0.1.0"
+description = "Lightweight personal AI assistant built on Claude Code, designed for deep customization"
+requires-python = ">=3.14"
+dependencies = [
+    "claude-agent-sdk>=0.1.20",
+    "lark-oapi>=1.5.2",
+    "python-dotenv>=1.0.0",
+    "anyio>=4.0.0",
+    "aiosqlite>=0.20.0",
+]
+
+[project.scripts]
+moon = "main:cli"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+where = ["."]

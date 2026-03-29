@@ -1,0 +1,19 @@
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+uv.lock
+
+# secrets
+.env
+
+# runtime
+assets/
+
+# ide
+.vscode/
+
+# scripts
+**/*.ps1

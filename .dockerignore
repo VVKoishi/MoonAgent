@@ -1,0 +1,21 @@
+# vcs
+.git/
+
+# ci
+.github/
+
+# ide
+.vscode/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# secrets
+.env
+
+# runtime
+assets/

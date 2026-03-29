@@ -1,0 +1,9 @@
+services:
+  agent:
+    container_name: moonagent
+    build: .
+    image: moonagent
+    env_file: .env
+    restart: unless-stopped
+    volumes:
+      - ./assets:/app/assets
