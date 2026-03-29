@@ -7,9 +7,10 @@
   基于 Claude Code 的私人 AI 助理，轻量、安全、易于理解，专为深度定制而设计。
 </p>
 <p align="center">
-  <img alt="GitHub License" src="https://img.shields.io/github/license/vvkoishi/moonagent" valign="middle">
   <!-- 更新 token-count：pip install tiktoken -q && python -c 'import glob,tiktoken as t;e=t.get_encoding("cl100k_base");f=[x for p in"*.py channels/**/*.py".split()for x in glob.glob(p,recursive=True)if __import__("os").path.isfile(x)];n=sum(len(e.encode(open(x,errors="ignore").read()))for x in f);print(f"{n/1000:.1f}K, {round(n/1e6*100,1)}% of 1M")' -->
   <img src="https://img.shields.io/badge/7.8K_tokens-0.8%25_of_1M_context-brightgreen" alt="7.8K tokens, 0.8% of 1M context window" valign="middle">
+  <img alt="GitHub License" src="https://img.shields.io/github/license/vvkoishi/moonagent" valign="middle">
+  <a href="https://pypi.org/project/moon-agent/"><img alt="PyPI - Version" src="https://img.shields.io/pypi/v/moon-agent" valign="middle"></a>
 </p>
 
 
