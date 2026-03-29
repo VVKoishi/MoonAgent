@@ -12,7 +12,7 @@ build/
 .env
 
 # runtime
-assets/
+/assets/
 
 # ide
 .vscode/
