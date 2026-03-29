@@ -5,6 +5,8 @@ __pycache__/
 *.pyo
 *.egg-info/
 uv.lock
+dist/
+build/
 
 # secrets
 .env
