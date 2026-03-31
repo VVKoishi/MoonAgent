@@ -1,9 +1,9 @@
 ---
-name: lark-message
+name: moon-lark-message
 description: 通过飞书/Lark 开放平台 API 向指定群或用户发送消息。支持文本、Markdown（卡片）、图片、文件、视频、语音、表情包等类型。需要 LARK_APP_ID 和 LARK_APP_SECRET 环境变量。当用户需要主动向飞书发送通知、结果或文件时使用。
 ---
 
-# Lark Message Skill
+# Moon Lark Message Skill
 
 向飞书群组或用户发送消息，支持文本、Markdown（卡片）、图片、文件类型。
 

@@ -75,11 +75,16 @@ git pull
 
 > [!TIP]
 >
-> **如何选择 OpenClaw，NanoClaw 和 MoonAgent ？**
+> **如何选择 OpenClaw，NanoClaw 和 MoonAgent ?**
 >
-> MoonAgent 核心代码 token 数仅 7.8K，远低于 NanoClaw 的 40.7K 和 OpenClaw 的 3.5M，且具备完全相同的能力。对于 1M 上下文的模型，仅占用 0.8% ，可以放心交给 AI 自迭代。
+> MoonAgent 核心代码 token 数仅 7.8K，远低于 [NanoClaw](https://github.com/qwibitai/nanoclaw) 的 40.7K 和 [OpenClaw](https://github.com/openclaw/openclaw) 的 3.5M，且具备完全相同的能力。对于 1M 上下文的模型，仅占用 0.8% ，可以放心交给 AI 自迭代。
 >
-> **为什么是 ClaudeCode ？**
+> **为什么是 ClaudeCode ?**
 >
-> 因为 ClaudeCode 是目前最优雅、最成熟的代理工具。MoonAgent 完全基于 ClaudeCode，可以从 Anthropic 的每次技术进步中受益。
+> 因为 [ClaudeCode](https://github.com/anthropics/claude-code) 是目前最优雅、最成熟的代理工具。MoonAgent 完全基于 ClaudeCode，可以从 Anthropic 的每次技术进步中受益。
+>
+> **是否支持 Lark CLI ?**
+>
+> 支持。MoonAgent 已集成飞书官方 [Lark CLI](https://github.com/larksuite/cli) 的全部 Skills，覆盖消息、文档、日历、多维表格等完整飞书生态。Agent 本体保持极简，专注渠道接入与核心技能；Lark CLI 作为可选扩展层按需加载，两者协同工作。
+>
 

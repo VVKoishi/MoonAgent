@@ -1,9 +1,9 @@
 ---
-name: lark-docx
+name: moon-lark-docx
 description: 飞书云文档（docx）完整操作。支持创建文档、添加/转移用户权限、Markdown 转文档块并插入（含图片和文件上传）、读取文档内容转 Markdown。当用户需要创建飞书文档、写入内容、上传素材或读取文档时使用。需要 LARK_APP_ID 和 LARK_APP_SECRET 环境变量。
 ---
 
-# Lark Docx Skill
+# Moon Lark Docx Skill
 
 操作飞书云文档（docx 类型），涵盖创建、内容写入（含图片/文件素材）、读取、权限管理。
 
